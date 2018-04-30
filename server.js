@@ -1,5 +1,5 @@
 const express = require('express');
-const stripe = require('stripe')('sk_test_5h4DL4kRHrh28EmDCgZXmEQe');
+const stripe = require('stripe')('insert_stripe_test_secret_key'); //
 const bodyParser =  require('body-parser');
 const exphbs = require('express-handlebars');
 let port = process.env.PORT || 5000;
